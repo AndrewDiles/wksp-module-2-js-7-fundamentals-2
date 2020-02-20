@@ -9,7 +9,8 @@ const characters = ['Rick', 'Morty', 'Summer', 'Beth', 'Jerry'];
 
 characters.sort();
 
-// outcome?
+
+// output : (5) ["Beth", "Jerry", "Morty", "Rick", "Summer"]  but ascii codes dont work well for capital letters
 ```
 
 ---
@@ -33,7 +34,7 @@ const numbers = [123, 13, 12, 6, 76, 0, 9];
 
 numbers.sort();
 
-// outcome?
+// outcome? [0, 12, 123, 6, 76, 9] based on first digit of each number
 ```
 
 ---
@@ -54,7 +55,7 @@ const numbers = [123, 13, 12, 6, 76, 0, 9];
 
 numbers.sort((a, b) => a - b)
 
-// outcome?
+// outcome? smallest to largest because it sorts via the difference between every number pairing
 ```
 
 ---
